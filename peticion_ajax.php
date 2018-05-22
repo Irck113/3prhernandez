@@ -29,8 +29,8 @@ $usuarios = queryPSQL($sql);
                     ?>
                     <tr>             
                         <td><?php echo $usuario['id_usuario']; ?></td>
-                        <td><?php echo $usuario['paterno']; ?></td>
-                        <td><?php echo $usuario['materno']; ?></td>
+                        <td><?php echo $usuario['apaterno']; ?></td>
+                        <td><?php echo $usuario['amaterno']; ?></td>
                         <td><?php echo $usuario['nombre']; ?></td>
                         <td><?php echo $usuario['telefono']; ?></td>
                         <td><?php echo $usuario['email']; ?></td>
