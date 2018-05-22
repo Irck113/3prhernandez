@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    $("button").click(function(){
-        $.post("consulta.php",
-        {
-          nombre: "dasfas",
-          apPaterno: "afasd"
-        },
-        function(data,status){
-            alert("Data: " + data + "\nStatus: " + status);
-        });
-    });
-});
 
+	$("button").click(function(){
+
+		$.get("consultadb.php", function(data, status){
+
+			$("#usuarios").html(data);
+
+		});
+
+	});
+
+});
