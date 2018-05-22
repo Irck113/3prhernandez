@@ -1,11 +1,20 @@
 <?php
-include_once("conexion.php");
 
-$usuarios = "SELECT nombre FROM usuarios";
-$guarda_usuario = consulta($usuarios);
+<?php
 
-echo "</p>Nombres - Departamento - Sueldo</p> \n";
-while($row = $guarda_usuario){
-	echo "<p>".$row['nombre']."</p> \n";
-}
+$nombre = $_POST[‘name’];
+
+$ciudad = $_POST[‘city’];
+
+//No olvidar la sanitización de variables
+
+//Esta sección sólo imprime en pantalla, pero puede
+insertar en BD, consultar otra aplicación, hacer uso
+de sesiones, etc.
+
+echo “Hola ”.$nombre.”. Esperamos que vivas feliz
+en: ”.$ciudad;
+
+?>
+
 ?>
