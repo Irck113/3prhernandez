@@ -1,0 +1,35 @@
+div{
+	margin: 15px;
+	padding: 5px;
+}
+
+.pagina{
+	background-color: #D1C4E9;
+}
+.creditos,
+.creditos p{
+	text-align: center;
+}
+
+h2{
+	font-size: 20px;
+	color: #361356;
+	font-style: verdana;
+	text-align: center;
+}
+
+p{
+	font-size: 14px;
+	color: #200439;
+	font-style: arial;
+	text-align: justify;
+}
+
+div.formulario{
+	background-color: #b39ddb;	
+}
+
+input{
+	margin: 8px 4px;
+	padding: 3px;
+}
