@@ -1,13 +1,6 @@
 <?php  
-include_once 'conexion.php';
-$sql = "SELECT
-    U.id_usuario,
-    U.nombre, U.apaterno, U.amaterno,
-    U.email,
-    U.telefono, U.email
-FROM
-    usuarios U
-;";
+include_once "conexion.php";
+$sql = "SELECT apaterno,amaterno,nombre,telefono,correo FROM usuarios ORDER BY apaterno ASC";
 $usuarios = queryPSQL($sql);
 ?>
 <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
@@ -20,7 +13,6 @@ $usuarios = queryPSQL($sql);
                     <th>Nombre</th>
                     <th>Telefono</th>
                     <th>Email</th>
-
                 </tr>
             </thead>
             <tbody>
