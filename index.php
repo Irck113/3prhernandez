@@ -5,7 +5,6 @@
                 <meta charset = "utf-8"/>
                 <meta name = "viewport" content = "width=device-width"/>
                 <link rel = "stylesheet" href = "css/main.css"/>
-                <script src="jquery-3.3.1.js"></script>
         </head>
 
         <body>
@@ -38,10 +37,12 @@
                         </fieldset>
                 </form>
                 </div>  
-                <a href = "contacto.php">Inicio</a>
-		<a href = "contacto.php">Contacto</a>
-		<a href = "consulta.php">Consulta</a>
-		<a href = "creditos.php">Creditos</a>
+                <footer>
+                    <a href = "index.php">Inicio</a>
+    		        <a href = "contacto.php">Contacto</a>
+    		        <a href = "consulta.php">Consulta</a>
+    		        <a href = "creditos.php">Creditos</a>
+                <footer>
 		<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

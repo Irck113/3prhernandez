@@ -11,7 +11,7 @@ div{
 	text-align: center;
 }
 
-h2{
+h1{
 	font-size: 20px;
 	color: #361356;
 	font-style: verdana;
@@ -32,4 +32,16 @@ div.formulario{
 input{
 	margin: 8px 4px;
 	padding: 3px;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+footer{
+	text-align: center;
+	background-color: #ede7f6;	
+}
+footer a{
+	margin: 0 50px;
 }

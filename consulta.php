@@ -1,15 +1,23 @@
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-		<title>Consulta Registro con AJAX</title>
-		<script language="JavaScript" type="text/javascript" src="js/ajax.js"></script>
-	</head>
+        <meta charset = "utf-8"/>
+        <meta name = "viewport" content = "width=device-width"/>
+        <link rel = "stylesheet" href = "css/main.css"/>
+    </head>
 
 	<body>
-		<form name="consulta" action="" onsubmit="MostrarConsulta('peticion_ajax.php'); return false">
-			<input type="submit" value="Consultar" />
-		</form>
-		<div id="resultado"></div>
+		<div class = "pagina">
+                	<h1>Consulta de usuarios</h1>
+                	<br/>
+			<button>Consultar usuarios</button>
+			<br/>
+			<footer>
+                    <a href = "index.php">Inicio</a>
+                    <a href = "creditos.php">Creditos</a>
+            </footer>
+		</div>
+		<script src="js/jquery-3.1.1.js"></script>
+        <script src="js/ajax.js"></script>
 	</body>
 
 </html>
